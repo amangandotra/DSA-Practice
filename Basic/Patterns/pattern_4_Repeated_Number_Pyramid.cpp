@@ -1,10 +1,11 @@
-// Pattern 3 – Number Pyramid (Increasing Numbers per Row)
-// Each row prints numbers starting from `1` up to the row number.
+// Pattern 4 – Repeated Number Pyramid
+// Each row prints the same number repeated row number times.
 // 1
-// 12
-// 123
-// 1234
-// 12345
+// 22
+// 333
+// 4444
+// 55555
+
 #include <iostream>
 using namespace std;
 
@@ -14,7 +15,7 @@ int main() {
     cin >> n;
     for (int i = 0; i<n;i++){
         for(int j=1;j<i+2;j++){
-            cout << j;
+            cout << i+1;
         }
         cout << endl;
     }
