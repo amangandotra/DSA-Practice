@@ -46,10 +46,18 @@ DSA-Practice/
 
 ## 🧩 Platforms I'm Practicing On
 
-[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge\&logo=leetcode\&logoColor=black)](https://leetcode.com/amangandotra)
-[![GeeksforGeeks](https://img.shields.io/badge/GeeksforGeeks-2F8D46?style=for-the-badge\&logo=geeksforgeeks\&logoColor=white)](https://www.geeksforgeeks.org/)
-[![HackerRank](https://img.shields.io/badge/HackerRank-00EA64?style=for-the-badge\&logo=hackerrank\&logoColor=black)](https://www.hackerrank.com/)
-[![CodeStudio](https://img.shields.io/badge/Coding%20Ninjas-F36F21?style=for-the-badge\&logo=codingninjas\&logoColor=white)](https://www.codingninjas.com/codestudio)
+<a href="https://leetcode.com/amangandotra" target="_blank">
+  <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode"/>
+</a>
+<a href="https://auth.geeksforgeeks.org/user/amangandotra" target="_blank">
+  <img src="https://img.shields.io/badge/GeeksforGeeks-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white" alt="GeeksforGeeks"/>
+</a>
+<a href="https://www.hackerrank.com/amangandotra" target="_blank">
+  <img src="https://img.shields.io/badge/HackerRank-00EA64?style=for-the-badge&logo=hackerrank&logoColor=black" alt="HackerRank"/>
+</a>
+<a href="https://www.codingninjas.com/codestudio/profile/amangandotra" target="_blank">
+  <img src="https://img.shields.io/badge/Coding%20Ninjas-F36F21?style=for-the-badge&logo=codingninjas&logoColor=white" alt="CodeStudio"/>
+</a>
 
 ---
 
