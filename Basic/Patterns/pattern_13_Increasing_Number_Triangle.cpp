@@ -1,9 +1,9 @@
 // Pattern 13 – Increasing Number Triangle (Continuous Count)
 // Numbers continue counting across rows.
 // 1
-// 23
-// 456
-// 78910
+// 2 3
+// 4 5 6
+// 7 8 9 10
 
 
 #include <iostream>
@@ -19,7 +19,7 @@ int main(){
         for (int j = 0; j < i+1; j++)
         {
             k++;
-            cout<<k;
+            cout<<k<<" ";
         }
         cout<<endl;
     }
