@@ -1,0 +1,27 @@
+// Pattern 13 – Increasing Number Triangle (Continuous Count)
+// Numbers continue counting across rows.
+// 1
+// 23
+// 456
+// 78910
+
+
+#include <iostream>
+using namespace std;
+
+int main(){
+    cout << "Enter number of rows";
+    int n;
+    cin >> n;
+    int k=0;
+    for (int i = 0; i < n; i++)
+    {
+        for (int j = 0; j < i+1; j++)
+        {
+            k++;
+            cout<<k;
+        }
+        cout<<endl;
+    }
+    
+}
