@@ -16,38 +16,12 @@ This repo contains my daily solutions and progress while solving questions from 
 ## 📊 Progress Summary
 
 ### 📁 Category-wise Breakdown
-| Category | Sub-Category | Questions Solved |
-|-----------|---------------|------------------|
-| 01_Arrays | easy | 0 |
-| 01_Arrays | hard | 0 |
-| 01_Arrays | medium | 0 |
-| 02_Strings | easy | 0 |
-| 02_Strings | hard | 0 |
-| 02_Strings | medium | 0 |
-| 03_LinkedList | easy | 0 |
-| 03_LinkedList | hard | 0 |
-| 03_LinkedList | medium | 0 |
-| 04_Stacks_Queues | easy | 0 |
-| 04_Stacks_Queues | hard | 0 |
-| 04_Stacks_Queues | medium | 0 |
-| 05_Trees | easy | 0 |
-| 05_Trees | hard | 0 |
-| 05_Trees | medium | 0 |
-| 06_Graphs | easy | 0 |
-| 06_Graphs | hard | 0 |
-| 06_Graphs | medium | 0 |
-| 07_Dynamic_Programming | easy | 0 |
-| 07_Dynamic_Programming | hard | 0 |
-| 07_Dynamic_Programming | medium | 0 |
-| 08_Recursion_Backtracking | easy | 0 |
-| 08_Recursion_Backtracking | hard | 0 |
-| 08_Recursion_Backtracking | medium | 0 |
-| Basic | Patterns | 14 |
+{CATEGORY_SUMMARY}
 
 ### 📈 Visual Progress
-![Progress Chart](progress_chart.png)
+{PIE_CHART}
 
-🕒 **Last Updated:** 12 November 2025, 01:07 AM
+🕒 **Last Updated:** {LAST_UPDATED}
 
 ---
 
