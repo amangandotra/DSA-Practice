@@ -77,10 +77,10 @@ def generate_chart(summary):
     plt.tight_layout()
     plt.savefig("progress_chart.png", bbox_inches="tight", dpi=150)
     plt.close()
-    
+
     color_emojis = ["🟩", "🟦", "🟥", "🟨", "🟪", "🟧"]
     legend_lines = [
-        f"- {color_emojis[i % len(color_emojis)]} **{cat}** — {val} questions"
+        f"- {color_emojis[i % len(color_emojis)]} **{cat}** - {val} questions"
         for i, (cat, val) in enumerate(zip(categories, values))
     ]
     legend_md = "\n".join(legend_lines)
