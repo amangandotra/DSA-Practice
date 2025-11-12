@@ -42,24 +42,24 @@ This repo contains my daily solutions and progress while solving questions from 
 | 08_Recursion_Backtracking | easy | 0 |
 | 08_Recursion_Backtracking | hard | 0 |
 | 08_Recursion_Backtracking | medium | 0 |
-| Basic | Patterns | 14 |
+| Basic | Patterns | 16 |
 
 ### 📈 Visual Progress
 ![Progress Chart](progress_chart.png)
 
-- 🟩 **01_Arrays** — 0 questions
-- 🟦 **02_Strings** — 0 questions
-- 🟥 **03_LinkedList** — 0 questions
-- 🟨 **04_Stacks_Queues** — 0 questions
-- 🟪 **05_Trees** — 0 questions
-- 🟧 **06_Graphs** — 0 questions
-- 🟩 **07_Dynamic_Programming** — 0 questions
-- 🟦 **08_Recursion_Backtracking** — 0 questions
-- 🟥 **Basic** — 14 questions
+- 🟩 **01_Arrays** - 0 questions
+- 🟦 **02_Strings** - 0 questions
+- 🟥 **03_LinkedList** - 0 questions
+- 🟨 **04_Stacks_Queues** - 0 questions
+- 🟪 **05_Trees** - 0 questions
+- 🟧 **06_Graphs** - 0 questions
+- 🟩 **07_Dynamic_Programming** - 0 questions
+- 🟦 **08_Recursion_Backtracking** - 0 questions
+- 🟥 **Basic** - 16 questions
 
-**Total Questions Solved:** 14 🎯
+**Total Questions Solved:** 16 🎯
 
-🕒 **Last Updated:** 13 November 2025, 12:24 AM
+🕒 **Last Updated:** 13 November 2025, 12:54 AM
 
 ---
 
