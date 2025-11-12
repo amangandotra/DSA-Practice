@@ -47,7 +47,17 @@ This repo contains my daily solutions and progress while solving questions from 
 ### 📈 Visual Progress
 ![Progress Chart](progress_chart.png)
 
-🕒 **Last Updated:** 12 November 2025, 01:07 AM
+🟩 **01_Arrays** — 0 questions
+🟩 **02_Strings** — 0 questions
+🟩 **03_LinkedList** — 0 questions
+🟩 **04_Stacks_Queues** — 0 questions
+🟩 **05_Trees** — 0 questions
+🟩 **06_Graphs** — 0 questions
+🟩 **07_Dynamic_Programming** — 0 questions
+🟩 **08_Recursion_Backtracking** — 0 questions
+🟩 **Basic** — 14 questions
+
+🕒 **Last Updated:** 13 November 2025, 12:13 AM
 
 ---
 

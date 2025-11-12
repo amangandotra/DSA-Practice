@@ -11,20 +11,18 @@ EXCLUDED = {"__pycache__", ".git", ".vscode"}
 def count_files(root):
     summary = {}
     for category in sorted(os.listdir(root)):
-        if category.startswith(".") or category in EXCLUDED:
+        if category.startswith(".") or category in EXCLUDED or not os.path.isdir(os.path.join(root, category)):
             continue
         path = os.path.join(root, category)
-        if os.path.isdir(path):
-            sub_summary = {}
-            total = 0
-            for sub in os.listdir(path):
-                sub_path = os.path.join(path, sub)
-                if os.path.isdir(sub_path):
-                    count = sum(1 for f in os.listdir(sub_path)
-                                if f.endswith((".cpp", ".py", ".java", ".c")))
-                    sub_summary[sub] = count
-                    total += count
-            summary[category] = {"total": total, "subs": sub_summary}
+        sub_summary = {}
+        total = 0
+        for sub in os.listdir(path):
+            sub_path = os.path.join(path, sub)
+            if os.path.isdir(sub_path):
+                count = sum(1 for f in os.listdir(sub_path) if f.endswith((".cpp", ".py", ".java", ".c", ".js")))
+                sub_summary[sub] = count
+                total += count
+        summary[category] = {"total": total, "subs": sub_summary}
     return summary
 
 def generate_table(summary):
@@ -41,34 +39,67 @@ def generate_chart(summary):
     categories = [cat for cat in summary.keys()]
     values = [data["total"] for data in summary.values()]
 
+    # If no solved, assign all to "Others"
     if not values or sum(values) == 0:
-        return ""
+        categories = ["Others"]
+        values = [1]
 
-    # Use modern donut chart look
-    fig, ax = plt.subplots(figsize=(6,6))
-    colors = cm.Set3(range(len(categories)))
+    # Add "Others" for unsolved categories
+    total_sum = sum(values)
+    if total_sum == 0:
+        total_sum = 1
+
+    # Donut chart with clean legend
+    fig, ax = plt.subplots(figsize=(8, 6))
+    colors = cm.Paired(range(len(categories)))
+
     wedges, texts, autotexts = ax.pie(
-        values, labels=categories, autopct='%1.1f%%',
-        startangle=140, pctdistance=0.85, colors=colors
+        values,
+        labels=None,
+        autopct='%1.1f%%',
+        startangle=90,
+        colors=colors,
+        pctdistance=0.85,
     )
-    # Create donut hole
-    centre_circle = plt.Circle((0,0),0.70,fc='white')
+
+    # Center hole (donut style)
+    centre_circle = plt.Circle((0, 0), 0.70, fc='white')
     fig.gca().add_artist(centre_circle)
-    ax.set_title("DSA Progress by Category", fontsize=14, fontweight='bold')
+    ax.axis('equal')
+
+    ax.set_title("DSA Progress by Category", fontsize=14, fontweight='bold', pad=20)
+
+    # Legend on right
+    plt.legend(
+        wedges,
+        [f"{cat} ({val} solved)" for cat, val in zip(categories, values)],
+        title="Legend",
+        loc="center left",
+        bbox_to_anchor=(1, 0, 0.5, 1),
+        fontsize=9
+    )
+
     plt.tight_layout()
     plt.savefig("progress_chart.png", bbox_inches="tight", dpi=150)
     plt.close()
 
-    return "![Progress Chart](progress_chart.png)"
+    # Color-coded textual summary
+    legend_lines = [
+        f"🟩 **{cat}** — {val} questions"
+        for cat, val in zip(categories, values)
+    ]
+    legend_md = "\n".join(legend_lines)
+
+    return "![Progress Chart](progress_chart.png)\n\n" + legend_md
 
 def git_commit_push(message):
     try:
         subprocess.run(["git", "add", "-A"], check=True)
         subprocess.run(["git", "commit", "-m", message], check=True)
         subprocess.run(["git", "push"], check=True)
-        print("🚀 Changes committed and pushed!")
+        print("🚀 Changes committed and pushed successfully.")
     except subprocess.CalledProcessError:
-        print("⚠️ Git commit/push failed — please check your credentials or branch.")
+        print("⚠️ Git push failed — please verify authentication or branch.")
 
 def update_readme():
     summary = count_files(os.getcwd())
