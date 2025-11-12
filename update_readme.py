@@ -39,17 +39,14 @@ def generate_chart(summary):
     categories = [cat for cat in summary.keys()]
     values = [data["total"] for data in summary.values()]
 
-    # If no solved, assign all to "Others"
     if not values or sum(values) == 0:
         categories = ["Others"]
         values = [1]
 
-    # Add "Others" for unsolved categories
     total_sum = sum(values)
     if total_sum == 0:
         total_sum = 1
 
-    # Donut chart with clean legend
     fig, ax = plt.subplots(figsize=(8, 6))
     colors = cm.Paired(range(len(categories)))
 
@@ -62,14 +59,12 @@ def generate_chart(summary):
         pctdistance=0.85,
     )
 
-    # Center hole (donut style)
     centre_circle = plt.Circle((0, 0), 0.70, fc='white')
     fig.gca().add_artist(centre_circle)
     ax.axis('equal')
 
     ax.set_title("DSA Progress by Category", fontsize=14, fontweight='bold', pad=20)
 
-    # Legend on right
     plt.legend(
         wedges,
         [f"{cat} ({val} solved)" for cat, val in zip(categories, values)],
@@ -83,11 +78,10 @@ def generate_chart(summary):
     plt.savefig("progress_chart.png", bbox_inches="tight", dpi=150)
     plt.close()
 
-    # Color-coded textual summary
-    legend_lines = [
-        f"🟩 **{cat}** — {val} questions"
-        for cat, val in zip(categories, values)
-    ]
+    color_emojis = ["🟩", "🟦", "🟥", "🟨", "🟪", "🟧"]
+    legend_lines = "\n".join(f"- {color_emojis[i % len(color_emojis)]} **{cat}** — {val} questions"
+                        for i, (cat, val) in enumerate(zip(categories, values)))
+
     legend_md = "\n".join(legend_lines)
 
     return "![Progress Chart](progress_chart.png)\n\n" + legend_md
