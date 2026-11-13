@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "stableProblemId": "leetcode-roman-to-integer",
+  "title": "roman-to-integer",
+  "problemNumber": null,
+  "problemSlug": "roman-to-integer",
+  "problemUrl": "https://leetcode.com/problems/roman-to-integer/description/",
+  "difficulty": "Easy",
+  "topics": [
+    "Hash Table",
+    "Math",
+    "String"
+  ],
+  "tags": [
+    "Hash Table",
+    "Math",
+    "String"
+  ],
+  "primaryTopic": "Hash Table",
+  "language": "python",
+  "sourceFilenames": [
+    "solution.py"
+  ],
+  "currentSubmissionStatus": "Accepted",
+  "submissionId": "dom-1794589584915",
+  "submissionHistory": [
+    {
+      "id": "dom-1794589584915",
+      "status": "Accepted"
+    }
+  ],
+  "notes": "",
+  "approach": "",
+  "intuition": "",
+  "timeComplexity": "O(n)",
+  "spaceComplexity": "O(1)",
+  "mistakeClassifications": [],
+  "mistakesNote": "",
+  "revisionStatus": "review",
+  "nextRevisionDate": "2026-11-16",
+  "creationTimestamp": "2026-11-13T17:06:36.447Z",
+  "lastUpdatedTimestamp": "2026-11-13T17:06:36.447Z",
+  "lastSolvedTimestamp": "2026-11-13T17:06:36.447Z"
+}
