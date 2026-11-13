@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "stableProblemId": "leetcode-palindrome-number",
+  "title": "palindrome-number",
+  "problemNumber": null,
+  "problemSlug": "palindrome-number",
+  "problemUrl": "https://leetcode.com/problems/palindrome-number/",
+  "difficulty": "Easy",
+  "topics": [
+    "Math"
+  ],
+  "tags": [
+    "Math"
+  ],
+  "primaryTopic": "Math",
+  "language": "python",
+  "sourceFilenames": [
+    "solution.py"
+  ],
+  "currentSubmissionStatus": "Accepted",
+  "submissionId": "dom-1794583447771",
+  "submissionHistory": [
+    {
+      "id": "dom-1794583447771",
+      "status": "Accepted"
+    }
+  ],
+  "notes": "Did It without converting it to a String,",
+  "approach": "",
+  "intuition": "",
+  "timeComplexity": "O(n)",
+  "spaceComplexity": "O(1)",
+  "mistakeClassifications": [
+    "Solved independently"
+  ],
+  "mistakesNote": "",
+  "revisionStatus": "review",
+  "nextRevisionDate": "2026-11-16",
+  "creationTimestamp": "2026-11-13T15:28:45.152Z",
+  "lastUpdatedTimestamp": "2026-11-13T15:28:45.152Z",
+  "lastSolvedTimestamp": "2026-11-13T15:28:45.152Z"
+}
