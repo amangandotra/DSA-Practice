@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "stableProblemId": "leetcode-two-sum",
+  "title": "two-sum",
+  "problemNumber": null,
+  "problemSlug": "two-sum",
+  "problemUrl": "https://leetcode.com/problems/two-sum/",
+  "difficulty": "Easy",
+  "topics": [
+    "Array",
+    "Hash Table"
+  ],
+  "tags": [
+    "Array",
+    "Hash Table"
+  ],
+  "primaryTopic": "Array",
+  "language": "python",
+  "sourceFilenames": [
+    "solution.py"
+  ],
+  "currentSubmissionStatus": "Accepted",
+  "submissionId": "dom-1794567716294",
+  "submissionHistory": [
+    {
+      "id": "dom-1794567716294",
+      "status": "Accepted"
+    }
+  ],
+  "notes": "",
+  "approach": "",
+  "intuition": "",
+  "timeComplexity": "O(n)",
+  "spaceComplexity": "O(1)",
+  "mistakeClassifications": [],
+  "mistakesNote": "",
+  "revisionStatus": "review",
+  "nextRevisionDate": "2026-11-16",
+  "creationTimestamp": "2026-11-13T11:09:11.689Z",
+  "lastUpdatedTimestamp": "2026-11-13T11:09:11.689Z",
+  "lastSolvedTimestamp": "2026-11-13T11:09:11.689Z"
+}
