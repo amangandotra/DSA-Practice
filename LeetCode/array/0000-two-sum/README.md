@@ -3,12 +3,12 @@
 - Platform: LeetCode
 - Problem Number: Unavailable
 - Difficulty: Easy
-- Problem URL: https://leetcode.com/problems/two-sum/
+- Problem URL: https://leetcode.com/problems/two-sum/description/
 - Primary Topic: Array
 - Tags: Array, Hash Table
 - Language: Python
 - Submission Status: Accepted
-- Last Solved: 2026-11-13T11:09:11.689Z
+- Last Solved: 2026-11-13T15:11:12.985Z
 
 ## Problem Summary
 
@@ -39,7 +39,7 @@ None recorded.
 
 ## Revision Status
 
-Review Later
+Mastered
 
 ## Next Review
 

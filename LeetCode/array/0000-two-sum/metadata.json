@@ -4,7 +4,7 @@
   "title": "two-sum",
   "problemNumber": null,
   "problemSlug": "two-sum",
-  "problemUrl": "https://leetcode.com/problems/two-sum/",
+  "problemUrl": "https://leetcode.com/problems/two-sum/description/",
   "difficulty": "Easy",
   "topics": [
     "Array",
@@ -20,10 +20,10 @@
     "solution.py"
   ],
   "currentSubmissionStatus": "Accepted",
-  "submissionId": "dom-1794567716294",
+  "submissionId": "dom-1794582636164",
   "submissionHistory": [
     {
-      "id": "dom-1794567716294",
+      "id": "dom-1794582636164",
       "status": "Accepted"
     }
   ],
@@ -34,9 +34,9 @@
   "spaceComplexity": "O(1)",
   "mistakeClassifications": [],
   "mistakesNote": "",
-  "revisionStatus": "review",
+  "revisionStatus": "mastered",
   "nextRevisionDate": "2026-11-16",
-  "creationTimestamp": "2026-11-13T11:09:11.689Z",
-  "lastUpdatedTimestamp": "2026-11-13T11:09:11.689Z",
-  "lastSolvedTimestamp": "2026-11-13T11:09:11.689Z"
+  "creationTimestamp": "2026-11-13T15:11:12.985Z",
+  "lastUpdatedTimestamp": "2026-11-13T15:11:12.985Z",
+  "lastSolvedTimestamp": "2026-11-13T15:11:12.985Z"
 }
