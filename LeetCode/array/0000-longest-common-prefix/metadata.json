@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "stableProblemId": "leetcode-longest-common-prefix",
+  "title": "longest-common-prefix",
+  "problemNumber": null,
+  "problemSlug": "longest-common-prefix",
+  "problemUrl": "https://leetcode.com/problems/longest-common-prefix/description/",
+  "difficulty": "Easy",
+  "topics": [
+    "Array",
+    "String",
+    "Trie"
+  ],
+  "tags": [
+    "Array",
+    "String",
+    "Trie"
+  ],
+  "primaryTopic": "Array",
+  "language": "python",
+  "sourceFilenames": [
+    "solution.py"
+  ],
+  "currentSubmissionStatus": "Accepted",
+  "submissionId": "dom-1794589552792",
+  "submissionHistory": [
+    {
+      "id": "dom-1794589552792",
+      "status": "Accepted"
+    }
+  ],
+  "notes": "",
+  "approach": "",
+  "intuition": "",
+  "timeComplexity": "O(n)",
+  "spaceComplexity": "O(1)",
+  "mistakeClassifications": [],
+  "mistakesNote": "",
+  "revisionStatus": "review",
+  "nextRevisionDate": "2026-11-17",
+  "reviewCount": 0,
+  "reviewHistory": [],
+  "creationTimestamp": "2026-11-14T09:33:19.455Z",
+  "lastUpdatedTimestamp": "2026-11-14T09:33:19.455Z",
+  "lastSolvedTimestamp": "2026-11-14T09:33:19.455Z"
+}
