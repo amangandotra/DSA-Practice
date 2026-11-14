@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "stableProblemId": "leetcode-remove-duplicates-from-sorted-array",
+  "title": "remove-duplicates-from-sorted-array",
+  "problemNumber": null,
+  "problemSlug": "remove-duplicates-from-sorted-array",
+  "problemUrl": "https://leetcode.com/problems/remove-duplicates-from-sorted-array/submissions/2196003362/",
+  "difficulty": "Easy",
+  "topics": [
+    "Array",
+    "Two Pointers"
+  ],
+  "tags": [
+    "Array",
+    "Two Pointers"
+  ],
+  "primaryTopic": "Array",
+  "language": "python3",
+  "sourceFilenames": [
+    "solution.py"
+  ],
+  "currentSubmissionStatus": "Accepted",
+  "submissionId": "2196003362",
+  "submissionHistory": [
+    {
+      "id": "2196003362",
+      "status": "Accepted"
+    }
+  ],
+  "notes": "",
+  "approach": "",
+  "intuition": "",
+  "timeComplexity": "",
+  "spaceComplexity": "",
+  "mistakeClassifications": [],
+  "mistakesNote": "",
+  "revisionStatus": "review",
+  "nextRevisionDate": "2026-11-17",
+  "reviewCount": 0,
+  "reviewHistory": [],
+  "creationTimestamp": "2026-11-14T15:09:02.196Z",
+  "lastUpdatedTimestamp": "2026-11-14T15:09:02.196Z",
+  "lastSolvedTimestamp": "2026-11-14T15:09:02.196Z"
+}
