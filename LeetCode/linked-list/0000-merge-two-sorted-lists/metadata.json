@@ -4,7 +4,7 @@
   "title": "merge-two-sorted-lists",
   "problemNumber": null,
   "problemSlug": "merge-two-sorted-lists",
-  "problemUrl": "https://leetcode.com/problems/merge-two-sorted-lists/submissions/2195962774/",
+  "problemUrl": "https://leetcode.com/problems/merge-two-sorted-lists/submissions/2195966143/",
   "difficulty": "Easy",
   "topics": [
     "Linked List",
@@ -20,25 +20,25 @@
     "solution.py"
   ],
   "currentSubmissionStatus": "Accepted",
-  "submissionId": "2195962774",
+  "submissionId": "2195966143",
   "submissionHistory": [
     {
-      "id": "2195962774",
+      "id": "2195966143",
       "status": "Accepted"
     }
   ],
   "notes": "",
   "approach": "",
   "intuition": "",
-  "timeComplexity": "",
-  "spaceComplexity": "",
+  "timeComplexity": "O(n log n) or O(n²)",
+  "spaceComplexity": "O(n)",
   "mistakeClassifications": [],
   "mistakesNote": "",
   "revisionStatus": "review",
   "nextRevisionDate": "2026-11-17",
   "reviewCount": 0,
   "reviewHistory": [],
-  "creationTimestamp": "2026-11-14T13:56:26.875Z",
-  "lastUpdatedTimestamp": "2026-11-14T13:56:26.875Z",
-  "lastSolvedTimestamp": "2026-11-14T13:56:26.875Z"
+  "creationTimestamp": "2026-11-14T14:02:46.903Z",
+  "lastUpdatedTimestamp": "2026-11-14T14:02:46.903Z",
+  "lastSolvedTimestamp": "2026-11-14T14:02:46.903Z"
 }

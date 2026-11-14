@@ -3,12 +3,12 @@
 - Platform: LeetCode
 - Problem Number: Unavailable
 - Difficulty: Easy
-- Problem URL: https://leetcode.com/problems/merge-two-sorted-lists/submissions/2195962774/
+- Problem URL: https://leetcode.com/problems/merge-two-sorted-lists/submissions/2195966143/
 - Primary Topic: Linked List
 - Tags: Linked List, Recursion
 - Language: Python
 - Submission Status: Accepted
-- Last Solved: 2026-11-14T13:56:26.875Z
+- Last Solved: 2026-11-14T14:02:46.903Z
 
 ## Problem Summary
 
@@ -26,8 +26,8 @@ Add the core idea behind the solution.
 
 ## Complexity Analysis
 
-- Time: Unavailable
-- Space: Unavailable
+- Time: O(n log n) or O(n²)
+- Space: O(n)
 
 ## My Notes
 
