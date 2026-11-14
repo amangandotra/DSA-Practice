@@ -3,12 +3,16 @@
 - Platform: LeetCode
 - Problem Number: Unavailable
 - Difficulty: Easy
-- Problem URL: https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/submissions/2196010055/
+- Problem URL: https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/submissions/2196116896/
 - Primary Topic: Two Pointers
 - Tags: Two Pointers, String, String Matching, Z Algorithm, Knuth–Morris–Pratt Algorithm, Boyer–Moore String-Search Algorithm
 - Language: Python
 - Submission Status: Accepted
-- Last Solved: 2026-11-14T15:22:09.528Z
+- Last Solved: 2026-11-14T18:10:54.760Z
+- Runtime: 0 ms
+- Memory: 19052000
+- Runtime Percentile: 100
+- Memory Percentile: 91.98429999999998
 
 ## Problem Summary
 
@@ -27,11 +31,11 @@ Add the core idea behind the solution.
 ## Complexity Analysis
 
 - Time: Review estimate
-- Space: O(1)
+- Space: Often O(1)
 
 ## My Notes
 
-Fast best way, single 1 line code, instead of long split method just use the index cmnd
+No notes yet.
 
 ## Mistakes and Lessons Learned
 
@@ -47,4 +51,4 @@ Review Later
 
 ## Solution
 
-[View solution.py](./solution.py)
+[View solution-2.py](./solution-2.py)
