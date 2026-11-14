@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "stableProblemId": "leetcode-merge-two-sorted-lists",
+  "title": "merge-two-sorted-lists",
+  "problemNumber": null,
+  "problemSlug": "merge-two-sorted-lists",
+  "problemUrl": "https://leetcode.com/problems/merge-two-sorted-lists/submissions/2195962774/",
+  "difficulty": "Easy",
+  "topics": [
+    "Linked List",
+    "Recursion"
+  ],
+  "tags": [
+    "Linked List",
+    "Recursion"
+  ],
+  "primaryTopic": "Linked List",
+  "language": "python3",
+  "sourceFilenames": [
+    "solution.py"
+  ],
+  "currentSubmissionStatus": "Accepted",
+  "submissionId": "2195962774",
+  "submissionHistory": [
+    {
+      "id": "2195962774",
+      "status": "Accepted"
+    }
+  ],
+  "notes": "",
+  "approach": "",
+  "intuition": "",
+  "timeComplexity": "",
+  "spaceComplexity": "",
+  "mistakeClassifications": [],
+  "mistakesNote": "",
+  "revisionStatus": "review",
+  "nextRevisionDate": "2026-11-17",
+  "reviewCount": 0,
+  "reviewHistory": [],
+  "creationTimestamp": "2026-11-14T13:56:26.875Z",
+  "lastUpdatedTimestamp": "2026-11-14T13:56:26.875Z",
+  "lastSolvedTimestamp": "2026-11-14T13:56:26.875Z"
+}
