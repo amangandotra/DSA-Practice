@@ -4,7 +4,7 @@
   "title": "find-the-index-of-the-first-occurrence-in-a-string",
   "problemNumber": null,
   "problemSlug": "find-the-index-of-the-first-occurrence-in-a-string",
-  "problemUrl": "https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/submissions/2196007081/",
+  "problemUrl": "https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/submissions/2196010055/",
   "difficulty": "Easy",
   "topics": [
     "Two Pointers",
@@ -28,25 +28,25 @@
     "solution.py"
   ],
   "currentSubmissionStatus": "Accepted",
-  "submissionId": "2196007081",
+  "submissionId": "2196010055",
   "submissionHistory": [
     {
-      "id": "2196007081",
+      "id": "2196010055",
       "status": "Accepted"
     }
   ],
-  "notes": "",
+  "notes": "Fast best way, single 1 line code, instead of long split method just use the index cmnd",
   "approach": "",
   "intuition": "",
-  "timeComplexity": "",
-  "spaceComplexity": "",
+  "timeComplexity": "Review estimate",
+  "spaceComplexity": "O(1)",
   "mistakeClassifications": [],
   "mistakesNote": "",
   "revisionStatus": "review",
   "nextRevisionDate": "2026-11-17",
   "reviewCount": 0,
   "reviewHistory": [],
-  "creationTimestamp": "2026-11-14T15:15:58.720Z",
-  "lastUpdatedTimestamp": "2026-11-14T15:15:58.720Z",
-  "lastSolvedTimestamp": "2026-11-14T15:15:58.720Z"
+  "creationTimestamp": "2026-11-14T15:22:09.528Z",
+  "lastUpdatedTimestamp": "2026-11-14T15:22:09.528Z",
+  "lastSolvedTimestamp": "2026-11-14T15:22:09.528Z"
 }
