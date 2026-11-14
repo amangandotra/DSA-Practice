@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "stableProblemId": "leetcode-search-insert-position",
+  "title": "search-insert-position",
+  "problemNumber": null,
+  "problemSlug": "search-insert-position",
+  "problemUrl": "https://leetcode.com/problems/search-insert-position/submissions/2196122485/",
+  "difficulty": "Easy",
+  "topics": [
+    "Array",
+    "Binary Search"
+  ],
+  "tags": [
+    "Array",
+    "Binary Search"
+  ],
+  "primaryTopic": "Array",
+  "language": "python3",
+  "sourceFilenames": [
+    "solution.py"
+  ],
+  "currentSubmissionStatus": "Accepted",
+  "submissionId": "2196122485",
+  "submissionHistory": [
+    {
+      "id": "2196122485",
+      "status": "Accepted",
+      "timestamp": "2026-11-14T18:19:44.549Z"
+    }
+  ],
+  "runtime": "0 ms",
+  "memory": 19660000,
+  "runtimePercentile": 100,
+  "memoryPercentile": 96.2246,
+  "notes": "",
+  "approach": "",
+  "intuition": "",
+  "timeComplexity": "Often O(n)",
+  "spaceComplexity": "Often O(1)",
+  "mistakeClassifications": [],
+  "mistakesNote": "",
+  "revisionStatus": "review",
+  "nextRevisionDate": "2026-11-17",
+  "reviewCount": 0,
+  "reviewHistory": [],
+  "creationTimestamp": "2026-11-14T18:20:01.007Z",
+  "lastUpdatedTimestamp": "2026-11-14T18:20:01.007Z",
+  "lastSolvedTimestamp": "2026-11-14T18:19:44.549Z"
+}
