@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "stableProblemId": "leetcode-add-two-numbers",
+  "title": "Intuition",
+  "problemNumber": null,
+  "problemSlug": "add-two-numbers",
+  "problemUrl": "https://leetcode.com/problems/add-two-numbers/",
+  "difficulty": "Medium",
+  "topics": [
+    "Linked List",
+    "Math",
+    "Recursion"
+  ],
+  "tags": [
+    "Linked List",
+    "Math",
+    "Recursion"
+  ],
+  "primaryTopic": "Linked List",
+  "language": "python",
+  "sourceFilenames": [
+    "solution.py"
+  ],
+  "currentSubmissionStatus": "Accepted",
+  "submissionId": "dom-1794645600704",
+  "submissionHistory": [
+    {
+      "id": "dom-1794645600704",
+      "status": "Accepted"
+    }
+  ],
+  "notes": "",
+  "approach": "",
+  "intuition": "",
+  "timeComplexity": "O(n)",
+  "spaceComplexity": "O(1)",
+  "mistakeClassifications": [],
+  "mistakesNote": "",
+  "revisionStatus": "review",
+  "nextRevisionDate": "2026-11-17",
+  "creationTimestamp": "2026-11-14T08:40:23.501Z",
+  "lastUpdatedTimestamp": "2026-11-14T08:40:23.501Z",
+  "lastSolvedTimestamp": "2026-11-14T08:40:23.501Z"
+}
