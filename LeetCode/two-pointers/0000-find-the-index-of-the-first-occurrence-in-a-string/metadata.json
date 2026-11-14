@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "stableProblemId": "leetcode-find-the-index-of-the-first-occurrence-in-a-string",
+  "title": "find-the-index-of-the-first-occurrence-in-a-string",
+  "problemNumber": null,
+  "problemSlug": "find-the-index-of-the-first-occurrence-in-a-string",
+  "problemUrl": "https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/submissions/2196007081/",
+  "difficulty": "Easy",
+  "topics": [
+    "Two Pointers",
+    "String",
+    "String Matching",
+    "Z Algorithm",
+    "Knuth–Morris–Pratt Algorithm",
+    "Boyer–Moore String-Search Algorithm"
+  ],
+  "tags": [
+    "Two Pointers",
+    "String",
+    "String Matching",
+    "Z Algorithm",
+    "Knuth–Morris–Pratt Algorithm",
+    "Boyer–Moore String-Search Algorithm"
+  ],
+  "primaryTopic": "Two Pointers",
+  "language": "python3",
+  "sourceFilenames": [
+    "solution.py"
+  ],
+  "currentSubmissionStatus": "Accepted",
+  "submissionId": "2196007081",
+  "submissionHistory": [
+    {
+      "id": "2196007081",
+      "status": "Accepted"
+    }
+  ],
+  "notes": "",
+  "approach": "",
+  "intuition": "",
+  "timeComplexity": "",
+  "spaceComplexity": "",
+  "mistakeClassifications": [],
+  "mistakesNote": "",
+  "revisionStatus": "review",
+  "nextRevisionDate": "2026-11-17",
+  "reviewCount": 0,
+  "reviewHistory": [],
+  "creationTimestamp": "2026-11-14T15:15:58.720Z",
+  "lastUpdatedTimestamp": "2026-11-14T15:15:58.720Z",
+  "lastSolvedTimestamp": "2026-11-14T15:15:58.720Z"
+}
