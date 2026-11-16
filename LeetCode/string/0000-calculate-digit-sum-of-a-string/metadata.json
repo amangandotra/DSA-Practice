@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "stableProblemId": "leetcode-calculate-digit-sum-of-a-string",
+  "title": "calculate-digit-sum-of-a-string",
+  "problemNumber": null,
+  "problemSlug": "calculate-digit-sum-of-a-string",
+  "problemUrl": "https://leetcode.com/problems/calculate-digit-sum-of-a-string/submissions/2197138749/?envType=daily-question&envId=2026-11-16",
+  "difficulty": "Easy",
+  "topics": [
+    "String",
+    "Simulation"
+  ],
+  "tags": [
+    "String",
+    "Simulation"
+  ],
+  "primaryTopic": "String",
+  "language": "python3",
+  "sourceFilenames": [
+    "solution.py"
+  ],
+  "currentSubmissionStatus": "Accepted",
+  "submissionId": "2197138749",
+  "submissionHistory": [
+    {
+      "id": "2197138749",
+      "status": "Accepted",
+      "timestamp": "2026-11-16T07:40:02.231Z"
+    }
+  ],
+  "runtime": "0 ms",
+  "memory": 19320000,
+  "runtimePercentile": 100,
+  "memoryPercentile": 20.14379999999999,
+  "notes": "",
+  "approach": "Brute Force",
+  "intuition": "",
+  "timeComplexity": "Often O(n²)",
+  "spaceComplexity": "Often O(1)",
+  "mistakeClassifications": [],
+  "mistakesNote": "",
+  "revisionStatus": "review",
+  "nextRevisionDate": "2026-11-19",
+  "reviewCount": 0,
+  "reviewHistory": [],
+  "creationTimestamp": "2026-11-16T07:40:26.377Z",
+  "lastUpdatedTimestamp": "2026-11-16T07:40:26.377Z",
+  "lastSolvedTimestamp": "2026-11-16T07:40:02.231Z"
+}
